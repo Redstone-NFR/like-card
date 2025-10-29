@@ -1,0 +1,16 @@
+@font-face {
+  font-family: F1;
+  src: url(../Fonts/BitcountGridSingle_Cursive-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: F1;
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}

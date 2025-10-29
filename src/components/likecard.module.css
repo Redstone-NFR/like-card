@@ -1,0 +1,67 @@
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.name {
+  color: #2d3436;
+  margin: 0 0 20px 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #32393b 0%, black 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.likeSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.likeButton {
+  background: linear-gradient(135deg, #6c5ce7 0%, #a363d9 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  cursor: progress;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.205);
+}
+
+.likeButton:hover {
+  transform: scale(1.5);
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.3);
+}
+
+.likeButton:active {
+  transform: scale(0.95);
+}
+
+.likeCount {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2d3436;
+  background: linear-gradient(135deg, #6c5ce7 0%, #a363d9 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  min-width: 40px;
+  display: inline-block;
+}
