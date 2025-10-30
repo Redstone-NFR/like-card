@@ -47,7 +47,7 @@
 }
 
 .likeButton:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
   box-shadow: 0 6px 20px rgba(108, 92, 231, 0.3);
 }
 
